@@ -1,0 +1,36 @@
+* {
+  object-fit: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {display: flex;
+  background-color: bisque;
+}
+nav h1 {
+  color: lightskyblue;
+  font-family: cursive;
+  text-align: center !important;
+}
+nav img {
+  width: 150px;
+}
+.sfondo{
+    background-image: url(https://th.bing.com/th/id/R.9e7f8e7130f53e1d005377366b6a84f1?rik=ThcFnfyTKgDwlg&pid=ImgRaw&r=0);
+    background-size: cover;
+}
+main {
+  background-color: lightblue;
+}
+.card p{
+display:-webkit-box;
+-webkit-line-clamp: 3  ;
+-webkit-box-orient: vertical;
+overflow:hidden;
+}
+.card {
+  background-color:transparent;
+  padding-block: 10px;
+}
+#last_minutes{
+  background-color:rgb(165, 213, 243)
+  ;
+}
